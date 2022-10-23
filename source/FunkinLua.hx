@@ -160,6 +160,7 @@ class FunkinLua {
 		set('ratingName', '');
 		set('ratingFC', '');
 		set('version', MainMenuState.psychEngineVersion.trim());
+		set('deaths', PlayState.deathCounter);
 
 		set('inGameOver', false);
 		set('mustHitSection', false);
